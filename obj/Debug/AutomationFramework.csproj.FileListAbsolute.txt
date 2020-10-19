@@ -1,0 +1,6 @@
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\bin\Debug\AutomationFramework.dll
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\bin\Debug\AutomationFramework.pdb
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\obj\Debug\AutomationFramework.csprojAssemblyReference.cache
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\obj\Debug\AutomationFramework.csproj.CoreCompileInputs.cache
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\obj\Debug\AutomationFramework.dll
+C:\Users\Tolo\source\repos\FrameworkTestProject\FrameworkTestProject\obj\Debug\AutomationFramework.pdb

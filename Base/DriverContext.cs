@@ -26,5 +26,7 @@ namespace AutomationFramework.Base
 
         }
 
+        public static Browser Browser { get; set; }
+
     }
 }

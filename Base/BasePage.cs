@@ -5,16 +5,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 
 namespace AutomationFramework.Base
 {
-    public abstract class BasePage
+    public abstract class BasePage : Base
     {
-
-        public BasePage()
+        private RemoteWebDriver _driver;
+        public BasePage(RemoteWebDriver driver)
         {
-            //this generate a none dependency of the initialize on the pages
-            PageFactory.InitElements(DriverContext.Driver, this);
+            DriverContext.Driver = driver;
 
         }
 

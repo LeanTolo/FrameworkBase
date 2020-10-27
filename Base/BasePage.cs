@@ -11,12 +11,7 @@ namespace AutomationFramework.Base
 {
     public abstract class BasePage : Base
     {
-        private RemoteWebDriver _driver;
-        public BasePage(RemoteWebDriver driver)
-        {
-            DriverContext.Driver = driver;
-
-        }
+        
 
     }
 }

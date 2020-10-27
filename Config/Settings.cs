@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AutomationFramework.Config
 {
-    class Settings
+    public class Settings
     {
+
+        public static string AUT { get; set; }
+
+
     }
 }

@@ -50,9 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Base.cs" />
     <Compile Include="Base\BasePage.cs" />
     <Compile Include="Base\BaseStep.cs" />
     <Compile Include="Base\BaseTest.cs" />
+    <Compile Include="Base\Browser.cs" />
     <Compile Include="Base\DriverContext.cs" />
     <Compile Include="Base\TestInitializeHook.cs" />
     <Compile Include="Class1.cs" />

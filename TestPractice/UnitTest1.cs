@@ -1,5 +1,6 @@
 ﻿using System;
 using AutomationFramework.Base;
+using AutomationFramework.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -37,12 +38,15 @@ namespace TestPractice
         public void TestMethod1()
         {
 
+            LogHelpers.createLogFile();
+
             DriverContext.Driver = new ChromeDriver();
-            DriverContext.Driver.Navigate().GoToUrl("");
+            DriverContext.Driver.Navigate().GoToUrl(url);
+            LogHelpers.writeFile("Opened the Browser!");
 
-            CurrentPage = GetInstance<RegisterPage>();
+           // CurrentPage = GetInstance<RegisterPage>();
 
-            CurrentPage.As<RegisterPage>().Register("username","password");
+            //CurrentPage.As<RegisterPage>().Register("username","password");
 
             //page.Register("user", "pass");
 

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace TestPractice.Pages
 {
-    class RegisterPage : BasePage
+    class RegisterPage
     {
 
         
-
+        /*
         IWebElement lnkRegister => _driver.FindElementByName("username");
 
 
@@ -35,6 +35,6 @@ namespace TestPractice.Pages
         {
             lnkRegister.Click();
         }
-
+        */
     }
 }

@@ -12,18 +12,9 @@ namespace AutomationFramework.Base
     {
         public BasePage CurrentPage { get; set; }
 
-        private IWebDriver _driver { get; set; }
-
         protected TPage GetInstance<TPage>() where TPage : BasePage, new()
         {
-            TPage pageInstance = new TPage()
-            {
-                _driver = DriverContext.Driver
-            };
-
-            PageFactory.InitElements(DriverContext.Driver, pageInstance);
-
-            return pageInstance;
+            return (TPage)Activator.CreateInstance(typeof(TPage));
         }
 
         public TPage As<TPage>() where TPage : BasePage

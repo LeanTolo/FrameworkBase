@@ -60,9 +60,10 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Config\ConfigReader.cs" />
     <Compile Include="Config\Settings.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Extensions\WebDriverExtensions.cs" />
     <Compile Include="Extensions\WebElementExtensions.cs" />
-    <Compile Include="Helpers\DataHelperExtension.cs" />
+    <Compile Include="Helpers\DataBaseHelperExtension.cs" />
     <Compile Include="Helpers\ExcelHelper.cs" />
     <Compile Include="Helpers\HtmlTableHelper.cs" />
     <Compile Include="Helpers\LogHelpers.cs" />

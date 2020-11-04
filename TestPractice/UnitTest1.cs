@@ -6,14 +6,13 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using TestPractice.Pages;
+using AutomationFramework.Config;
 
 namespace TestPractice
 {
     [TestClass]
     public class UnitTest1 : Base
     {
-
-        string url = "http://www.mercadolibre.com.ar";
 
         public void OpenBrowser(BrowserType browserType)
         {
@@ -38,10 +37,12 @@ namespace TestPractice
         public void TestMethod1()
         {
 
+            ConfigReader.SetFrameworkSettings();
+
             LogHelpers.createLogFile();
 
             DriverContext.Driver = new ChromeDriver();
-            DriverContext.Driver.Navigate().GoToUrl(url);
+            DriverContext.Driver.Navigate().GoToUrl(Settings.AUT);
             LogHelpers.writeFile("Opened the Browser!");
 
            // CurrentPage = GetInstance<RegisterPage>();

@@ -7,6 +7,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using TestPractice.Pages;
 using AutomationFramework.Config;
+using AutomationFramework.Extensions;
 
 namespace TestPractice
 {

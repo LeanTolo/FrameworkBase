@@ -4,6 +4,7 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
+using AutomationFramework.Config;
 
 namespace AutomationFramework.Helpers
 {
@@ -18,7 +19,7 @@ namespace AutomationFramework.Helpers
         
         public static void createLogFile()
         {
-            string dir = @"e:\Framework\";
+            string dir = Settings.LogPath;
             if (Directory.Exists(dir))
             {
                 _streamW = File.AppendText(dir + _logFileName + ".log");

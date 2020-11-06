@@ -1,5 +1,6 @@
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\obj\Debug\TestPractice.csprojAssemblyReference.cache
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\obj\Debug\TestPractice.csproj.CoreCompileInputs.cache
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Config\GlobalConfig.xml
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -10,11 +11,17 @@ C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.Visual
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\WebDriver.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\WebDriver.Support.dll
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.dll
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.DataSet.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\AutomationFramework.pdb
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\WebDriver.xml
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\WebDriver.Support.xml
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.pdb
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.xml
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\bin\Debug\ExcelDataReader.DataSet.xml
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\obj\Debug\TestPractice.csproj.CopyComplete
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\obj\Debug\TestPractice.dll
 C:\Users\Tolo\source\repos\FrameworkBase\TestPractice\obj\Debug\TestPractice.pdb

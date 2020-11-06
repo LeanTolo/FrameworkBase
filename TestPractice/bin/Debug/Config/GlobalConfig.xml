@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<AutomationFramework>
+  
+  <RunSettings>
+
+    <AUT>http://www.instagram.com</AUT>
+    
+    <!-- Chrome / Firefox / IE / etc -->
+    <Browser>Chrome</Browser>
+    
+    <!-- Smoke / Regression / Unit / etc -->
+    <TestType>SmokeTest</TestType>
+    
+    <!-- Y / N -->
+    <IsLog>Y</IsLog>
+    <LogPath>E:\Framework</LogPath>
+    <BuildName>DemoBuild</BuildName>
+    
+    <!-- Y / N-->
+    <IsReport>N</IsReport>
+    <UserName>xxxxxx</UserName>
+    
+    <!-- Selenium / Specflow / etc. -->
+    <Technology>Selenium</Technology>
+    
+  </RunSettings>
+
+</AutomationFramework>

@@ -21,3 +21,4 @@ C:\Users\Tolo\source\repos\FrameworkBase\obj\Debug\AutomationFramework.csproj.Co
 C:\Users\Tolo\source\repos\FrameworkBase\obj\Debug\AutomationFramework.csproj.CopyComplete
 C:\Users\Tolo\source\repos\FrameworkBase\obj\Debug\AutomationFramework.dll
 C:\Users\Tolo\source\repos\FrameworkBase\obj\Debug\AutomationFramework.pdb
+C:\Users\Tolo\source\repos\FrameworkBase\obj\Debug\AutomationFramework.csprojAssemblyReference.cache

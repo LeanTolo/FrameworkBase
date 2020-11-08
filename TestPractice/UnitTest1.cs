@@ -19,17 +19,17 @@ namespace TestPractice
         public void TestMethod1()
         {
 
-           // string fileName = Environment.CurrentDirectory.ToString() + "\\Data\\Login.xlsx";
-
-           // ExcelHelper.PopulateInCollection(fileName);
+            string fileName = "C:\\Users\\Tolo\\source\\repos\\FrameworkBase\\TestPractice\\Data\\Login.xlsx";
+            
+            ExcelHelper.PopulateInCollection(fileName);
 
             CurrentPage = GetInstance<LoginPage>();
 
-            CurrentPage.As<LoginPage>().Login("lolo_tol_10@hotmail.com", "TestingPass123");
-            //CurrentPage.As<LoginPage>().Login(ExcelHelper.ReadData(1, "UserName"), ExcelHelper.ReadData(1, "Password"));
+           // CurrentPage.As<LoginPage>().Login("lolo_tol_10@hotmail.com", "TestingPass123");
+            CurrentPage.As<LoginPage>().Login(ExcelHelper.ReadData(1, "UserName"), ExcelHelper.ReadData(1, "Password"));
 
 
-
+            Console.WriteLine("success");
         }
     }
 }
